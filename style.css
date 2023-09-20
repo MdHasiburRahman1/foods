@@ -11,12 +11,13 @@ body {
     font-family: 'Italiana', serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
-    position: relative;
+    /* position: relative; */
     scroll-behavior: smooth;
     width: 100wh;
     min-height: 100vh;
-    background-color: #f2eaea;
+    background-color: #fff;
     overflow-x: hidden;
+    align-items: center;
 
 }
 
@@ -451,6 +452,8 @@ header {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     margin-bottom: 30px;
+    display: inline-block;
+    width: 150px;
 
 }
 
@@ -712,21 +715,31 @@ h3 {
 
 /* footer end */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
+    .leftSideImg {
+        position: relative;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
     .aboutRightSlide {
         padding-top: 645px;
         padding-bottom: 63px;
     }
 
     .leftSideImg .imgOne {
-        width: 300px;
+        width: 60%;
+        height: 350px;
 
     }
-
     .leftSideImg .imgTwo {
-        width: 350px;
-        left: 166px;
-
+        width: 60%;
+        height: 350px;
+        left: 40%;
+    }
+    .aboutRightSlide {
+        padding-top: 200px;
+        padding-bottom: 63px;
+        margin-top: 300px;
     }
 
     .paragraph {
@@ -754,9 +767,18 @@ h3 {
         line-height: 35px;
 
     }
+    .cardSection a {
+        text-decoration: none;
+        font-size: 22px;
+        padding: 8px 0px;
+        letter-spacing: 2px;
+        color: #de0a8d;
+        margin-top: 0px;
+        display: block;
+    }
 
     #search-box {
-        width: 350px;
+        width: 280px;
     }
 
     .chafsImg {
@@ -791,15 +813,40 @@ h3 {
     .headerContant h1 {
         font-size: 40px;
     }
-    .leftSideImg .imgTwo {
-        width: 278px;
-        height: 450px;
+    .headerContant h2 {
+        color: #000;
+        font-size: 40px;
+    }
+    .headerContantRight .foodImg {
+        width: 210px;
+        height: 210px;
+        border-radius: 50%;
+        animation: rotation 10s linear infinite;
+        overflow: hidden;
         
     }
-    .leftSideImg .imgOne {
-        width: 258px;
-        height: 450px;
-        
+    .headerContantRight{
+        padding-bottom: 50px;
+    }
+    .topicon i {
+        width: 20px;
+        height: 20px;
+        font-size: 34px;
+        right: 10px;
+        bottom: 30px;
+    }
+    .menuBtn {
+        display: inline-block;
+        width: 216px;
+        font-size: 16px;
+    }
+    .paragraph {
+        color: #ffffff;
+        font-weight: 500;
+    }
+
+    #menu{
+        padding: 10px 0px;
     }
 
 }
