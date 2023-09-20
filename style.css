@@ -790,7 +790,7 @@ h3 {
         font-size: 29px;
         letter-spacing: 2px;
         font-weight: 700;
-        margin: 50px 0px;
+        padding-bottom: 40px;
     }
 
     .aboutRightSlide h2 {
@@ -840,8 +840,11 @@ h3 {
         width: 216px;
         font-size: 16px;
     }
+    .paragraph{
+        color: #f7efef;
+    }
     .p-color {
-        color: #ffffff;
+        color: #010000;
         font-weight: 500;
     }
 
