@@ -846,6 +846,11 @@ h3 {
     .p-color {
         color: #010000;
         font-weight: 500;
+        letter-spacing: 1px;
+        font-size: 18px;
+        color: var(--text-fill-color);
+        font-weight: 400;
+        line-height: 32px;
     }
 
     #menu{
