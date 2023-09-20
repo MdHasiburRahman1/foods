@@ -13,6 +13,10 @@ body {
     font-family: 'Roboto', sans-serif;
     position: relative;
     scroll-behavior: smooth;
+    width: 100wh;
+    min-height: 100vh;
+    background-color: #f2eaea;
+    overflow-x: hidden;
 
 }
 
@@ -436,6 +440,8 @@ header {
     background: url(img/bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    width: 100%;
+    height: auto;
 
 
 }
